@@ -15,10 +15,5 @@ public class HomeController {
         return "Welcome to the Drinks API!";
     }
 
-    @GetMapping("health")
-    public String health() {
-        return "OK";
-    }
-
 
 }//end class
